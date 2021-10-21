@@ -308,7 +308,7 @@ hr{
     .row{
         flex-direction: column;
     }
-    .image-col img{
+    .image-col{
         width: 90%;
     }
     
