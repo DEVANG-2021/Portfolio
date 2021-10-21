@@ -308,7 +308,7 @@ hr{
     .row{
         flex-direction: column;
     }
-    .image-col{
+    .image-col {
         width: 90%;
     }
     
@@ -375,4 +375,3 @@ li:hover{
     color: #fc036b;
     cursor: pointer;
 }
-
