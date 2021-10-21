@@ -319,6 +319,9 @@ hr{
         width: 100%;
         text-align: justify;
     }
+    .image-col{
+         width: 90%;
+     }
     .tours .col{
         width: 100%;
     }
