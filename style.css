@@ -218,7 +218,8 @@ hr{
 }
 
 .tours .image-gallery{
-    margin-left: 18px;
+    position : relative;
+    margin-left: 5%;
 }
 
 .image-gallery img{
