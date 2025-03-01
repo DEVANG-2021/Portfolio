@@ -12,6 +12,58 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+        }
+        .skills-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        .skills-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .skills-header h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .skills-header p {
+            color: #555;
+            font-size: 1rem;
+        }
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+        .skill-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .skill-item:hover {
+            transform: translateY(-5px);
+        }
+        .skill-item h3 {
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .skill-item p {
+            font-size: 1rem;
+            color: #666;
+        }
+    </style>
     </head>
 
     <body>
@@ -43,7 +95,7 @@
             <div class="content-col">
                 <h1>About Me</h1>
                  <div class="line"></div>
-                 <p>Hello World,My name is Devang Parmar.I am 20 years old from India and studying at A.D.Patel institute of Technology.</p>
+                 <p>Hello World,My name is Devang Parmar.I am 24 years old from Windsor,Canada and studying at A.D.Patel institute of Technology.</p>
                   <a href="#" class="ctn">About Me</a>
              </div>
      
@@ -54,7 +106,38 @@
            
         </div>
     </section>
-
+   <<div class="skills-container">
+        <div class="skills-header">
+            <h2>Technical Skills</h2>
+            <p>Here are some of my key skills, with a focus on data-related technologies:</p>
+        </div>
+        <div class="skills-list">
+            <div class="skill-item">
+                <h3>Data Analysis</h3>
+                <p>Pandas, NumPy, Scikit-learn</p>
+            </div>
+            <div class="skill-item">
+                <h3>Machine Learning</h3>
+                <p>TensorFlow, Keras, Scikit-learn</p>
+            </div>
+            <div class="skill-item">
+                <h3>Databases</h3>
+                <p>MySQL, PostgreSQL, MongoDB</p>
+            </div>
+            <div class="skill-item">
+                <h3>Cloud Platforms</h3>
+                <p>AWS, Oracle Cloud</p>
+            </div>
+            <div class="skill-item">
+                <h3>Data Visualization</h3>
+                <p>Power BI, Tableau</p>
+            </div>
+            <div class="skill-item">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, React.js</p>
+            </div>
+        </div>
+    </div>>
     
       
        <section class="events" id="Project">
@@ -91,14 +174,16 @@
             </div>
        </section>
        
-
+     
     
 
     <section class="footer" id="footer">
-        <p>D-120 Uday Nagar, gotri, Utcarsh Vidhyalay Vadodara, Gujarat, India. | Phone No. : 999987878 | Email : parmardev999@gmail.com</p>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-twitter"></a>
+        <p>1591 Martindale Street, N9B 1G5, Windsor, Canada. | Phone No. : +1 (647) 468 5271 | Email : parmardevang459@gmail.com</p>
+        <a href="https://www.linkedin.com/in/devangparmar185/" class="fa fa-linkedin"></a>
+        <a href="https://www.facebook.com/devang.parmar.10236" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/devang_185/" class="fa fa-instagram"></a>
+        <a href="https://x.com/parmardevang459" class="fa fa-x"></a>
+       
         </section>
         
        <script>
